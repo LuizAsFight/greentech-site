@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Greentech LTDA — Software Development Consultancy</title>
+  <meta name="description" content="Greentech LTDA — software development, process consulting, and training for engineering teams." />
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=2" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="Greentech home">
+        <img src="assets/logo.svg" alt="" class="brand-mark" width="40" height="40" />
+        <span class="brand-name">Greentech</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#services" data-i18n="nav.services">Services</a>
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-toggle" role="group" aria-label="Language">
+          <button type="button" data-lang="en" class="active" aria-pressed="true">EN</button>
+          <button type="button" data-lang="pt" aria-pressed="false">PT</button>
+        </div>
+        <a href="#contact" class="btn btn-primary btn-sm" data-i18n="nav.cta">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Software Development Consultancy</p>
+        <h1 data-i18n="hero.title">Better software, built on better&nbsp;process.</h1>
+        <p class="lead" data-i18n="hero.subtitle">
+          Greentech helps companies design, manage, and improve the way they build
+          software — from process consulting to hands-on development and training.
+        </p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary" data-i18n="hero.primary">Get in touch</a>
+          <a href="#services" class="btn btn-ghost" data-i18n="hero.secondary">Explore services</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section">
+      <div class="container">
+        <p class="eyebrow" data-i18n="services.eyebrow">What we do</p>
+        <h2 data-i18n="services.title">Services</h2>
+        <p class="section-lead" data-i18n="services.lead">
+          Five focused offerings that cover the full lifecycle of building great software teams.
+        </p>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-5 4 4 8-8"/><path d="M14 8h6v6"/></svg>
+            </div>
+            <h3 data-i18n="services.s1.title">Process Improvement Consulting</h3>
+            <p data-i18n="services.s1.desc">We analyze how your team builds software and deliver practical improvements that raise quality, speed, and predictability.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v3h6V4"/><path d="M8 12h8M8 16h5"/></svg>
+            </div>
+            <h3 data-i18n="services.s2.title">Software Process Management</h3>
+            <p data-i18n="services.s2.desc">End-to-end management of your software creation process, keeping delivery transparent and on track from idea to release.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6l-6 6 6 6"/><path d="M16 6l6 6-6 6"/></svg>
+            </div>
+            <h3 data-i18n="services.s3.title">Software Development</h3>
+            <p data-i18n="services.s3.desc">Custom software designed, built, and delivered by an experienced team — reliable, maintainable, and made to last.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 9L12 4 2 9l10 5 10-5z"/><path d="M6 11.5V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-4.5"/></svg>
+            </div>
+            <h3 data-i18n="services.s4.title">Developer Training</h3>
+            <p data-i18n="services.s4.desc">Hands-on training programs that level up software developers with modern practices and tools.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17.5" cy="9.5" r="2.5"/><path d="M16.5 14.2c2.6.5 4.5 2.4 4.5 5"/></svg>
+            </div>
+            <h3 data-i18n="services.s5.title">Engineering Management Training</h3>
+            <p data-i18n="services.s5.desc">Training for software development managers: planning, leading teams, and running healthy delivery processes.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section-alt">
+      <div class="container about-inner">
+        <div>
+          <p class="eyebrow" data-i18n="about.eyebrow">About us</p>
+          <h2 data-i18n="about.title">Process-driven. People-focused.</h2>
+          <p class="section-lead" data-i18n="about.text">
+            Greentech LTDA is a consultancy dedicated to one thing: helping organizations
+            build software well. We combine deep engineering experience with a practical,
+            process-driven approach — so your team ships better software, faster, and keeps
+            getting better at it.
+          </p>
+        </div>
+        <ul class="about-points">
+          <li data-i18n="about.p1">Practical recommendations, not shelf-ware reports</li>
+          <li data-i18n="about.p2">Experienced engineers and managers</li>
+          <li data-i18n="about.p3">Training designed for real day-to-day work</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container contact-inner">
+        <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+        <h2 data-i18n="contact.title">Let's talk about your project</h2>
+        <p class="section-lead" data-i18n="contact.text">
+          Tell us where you are and where you want to go — we'll reply with how we can help.
+        </p>
+        <a class="btn btn-primary btn-lg" href="mailto:greentech.br.1943@gmail.com" data-i18n="contact.send">Send us an email</a>
+        <div class="email-chip">
+          <span id="email-text">greentech.br.1943@gmail.com</span>
+          <button type="button" id="copy-email" class="copy-btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            <span data-i18n="contact.copy">Copy</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="brand">
+        <img src="assets/logo.svg" alt="" class="brand-mark brand-mark-sm" width="28" height="28" />
+        <span class="brand-name">Greentech LTDA</span>
+      </div>
+      <p data-i18n="footer.rights">© 2026 Greentech LTDA. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="app.js?v=2"></script>
+</body>
+</html>
